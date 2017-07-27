@@ -1,3 +1,29 @@
 .flashy {
 	color: blue;
 }
+
+.bigger {
+	font-size: 4em;
+}
+
+.border {
+	border: 2px dotted hotpink;
+}
+
+.rounding {
+	border: 2px dotted hotpink;
+	border-radius: 100%;
+}
+
+#section1 {
+	font-weight: bold;
+}
+
+#conclusion {
+	font-weight: bold;
+	font-style: italic;
+}
+
+button {
+	display: block;
+}

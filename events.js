@@ -57,3 +57,15 @@ document.getElementById("add-color")
         guineaPig.classList.toggle("flashy");
     
     });
+document.getElementById("make-large")
+    .addEventListener("click", function(){
+        guineaPig.classList.toggle("bigger");
+    });
+
+document.getElementById("add-border").addEventListener("click", function(){
+    guineaPig.classList.toggle("border");
+});
+
+document.getElementById("add-rounding").addEventListener("click", function (){
+    guineaPig.classList.toggle("rounding");
+});
