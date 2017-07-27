@@ -4,8 +4,8 @@ let output = "You have clicked ";
 let mouseOver = "You have moved your mouse over ";
 let outputTarget = document.getElementById("output-target");
 let inputTarget = document.getElementById("keypress-input");
-let colorButton = document.getElementById("add-color");
-let guineaPig = document.getElementById("guinea-pig");
+// let colorButton = document.getElementById("add-color");
+
 
 document.getElementById("intro").addEventListener("click", function(){
     document.getElementById("output-target").innerHTML = output + "The introduction."
@@ -51,6 +51,9 @@ inputTarget.addEventListener("keyup", function(event){
 	outputTarget.innerHTML = event.target.value;
 });
 
-colorButton.addEventListener("click", function() {   
-    guineaPig.classList.toggle("blue");
-});
+let guineaPig = document.getElementById("guinea-pig");
+document.getElementById("add-color")
+    .addEventListener("click", function(){
+        guineaPig.classList.toggle("flashy");
+    
+    });
